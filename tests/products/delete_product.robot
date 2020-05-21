@@ -16,4 +16,3 @@ Delete Product
     ${resp}=          Delete Product      ${id}       ${token}
 
     Status Should Be        204     ${resp}
-#    Should Be Equal         ${resp.json()['title']}           ${payload['title']}
